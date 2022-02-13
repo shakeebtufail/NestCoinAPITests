@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "f5ea1a78-3a96-4bda-9c9d-8b1d0c000142",
+		"_postman_id": "c2fd2031-b293-4bf4-92da-ef634a2de0d1",
 		"name": "NestCoinTask",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -380,11 +380,11 @@
 							"pm.test(\"Response verified\", function () {\r",
 							"    pm.expect(pm.response.text()).to.not.include(\"updatedAt\");\r",
 							"});\r",
-							"pm.test(\"Status code has Bad Request\", function () {\r",
-							"    pm.response.to.have.status(\"Bad Request\");\r",
+							"pm.test(\"Status code has Not Allowed\", function () {\r",
+							"    pm.response.to.have.status(\"Not Allowed\");\r",
 							"    });\r",
-							"pm.test(\"Status code is 400\", function () {\r",
-							"    pm.response.to.have.status(400);\r",
+							"pm.test(\"Status code is 405\", function () {\r",
+							"    pm.response.to.have.status(405);\r",
 							"});"
 						],
 						"type": "text/javascript"
@@ -662,11 +662,11 @@
 							"pm.test(\"Response verified\", function () {\r",
 							"    pm.expect(pm.response.text()).to.not.include(\"updatedAt\");\r",
 							"});\r",
-							"pm.test(\"Status code has Bad Request\", function () {\r",
-							"    pm.response.to.have.status(\"Bad Request\");\r",
+							"pm.test(\"Status code has Not Allowed\", function () {\r",
+							"    pm.response.to.have.status(\"Not Allowed\");\r",
 							"    });\r",
-							"pm.test(\"Status code is 400\", function () {\r",
-							"    pm.response.to.have.status(400);\r",
+							"pm.test(\"Status code is 405\", function () {\r",
+							"    pm.response.to.have.status(405);\r",
 							"});"
 						],
 						"type": "text/javascript"
